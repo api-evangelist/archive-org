@@ -1,0 +1,32 @@
+aid: archive-org
+name: Archive.org
+description: "The Internet Archive"
+url: https://archive.readme.io/docs
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Open Data"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Open Data
+  - Public APIs
+apis:
+  - name: Archive.org
+    description: "The Internet Archive"
+    humanURL: https://archive.readme.io/docs
+    baseURL: https://archive.readme.io/docs
+    tags:
+      - Open Data
+    properties:
+      - type: Documentation
+        url: https://archive.readme.io/docs
+common:
+  - type: Website
+    url: https://archive.readme.io/docs
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
