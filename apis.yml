@@ -1,4 +1,16 @@
 aid: archive-org
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/archive-org.png
 name: Archive.org
 description: "The Internet Archive"
 url: https://archive.readme.io/docs
