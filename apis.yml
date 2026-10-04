@@ -39,7 +39,6 @@ apis:
   - name: Archive.org
     description: "The Internet Archive"
     humanURL: https://archive.readme.io/docs
-    baseURL: https://archive.readme.io/docs
     tags:
       - Open Data
     properties:
