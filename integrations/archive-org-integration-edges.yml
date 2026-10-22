@@ -1,0 +1,58 @@
+edges:
+- partner_name: APIs.guru OpenAPI Directory
+  partner: apis-guru
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: third-party
+  evidence: https://apis.guru/
+  category: API definition directory listing (OpenAPI)
+  contract_reference:
+    register: APIs.guru OpenAPI Directory
+    spec_file: null
+    standard: APIs.guru OpenAPI Directory
+    role: listed-in-directory
+    directory_provider: archive.org
+    matched_domain: archive.org
+    matched_by: domain+local-verified
+    apis_listed: 2
+    version_count: 2
+    first_added: '2018-02-24'
+    last_updated: '2021-06-21'
+    origin_publisher_hosted: false
+    origin_hosts:
+    - raw.githubusercontent.com
+    categories:
+    - search
+    own_openapi_files: 0
+    listings:
+    - key: archive.org:search
+      title: Search Services
+      preferred: 1.0.0
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/archive.org/search/1.0.0/openapi.json
+      origin_url: https://raw.githubusercontent.com/ArchiveLabs/api.archive.org/master/swagger/search.yaml
+      openapi_version: 3.0.0
+    - key: archive.org:wayback
+      title: Wayback API
+      preferred: 1.0.0
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/archive.org/wayback/1.0.0/openapi.json
+      origin_url: https://raw.githubusercontent.com/ArchiveLabs/api.archive.org/master/swagger/wayback.json
+      openapi_version: 3.0.0
+    signal_note: 'participation only: a community directory listing (APIs.guru collects definitions; the provider
+      did not file them). Signals: version_count, apis_listed, origin_publisher_hosted.'
+    detected_by: sweep-openapi-directory-apis-guru.py
+    detected: '2026-10-22'
+    verified_note: Internet Archive Wayback / search APIs; all/archive-org is the Internet Archive
+  detected_by: sweep-openapi-directory-apis-guru.py
+  first_seen: '2026-10-22'
+generated: '2026-10-22'
+method: searched
+source:
+- https://api.apis.guru/v2/list.json
+- https://api.apis.guru/v2/providers.json
+checked:
+- https://api.apis.guru/v2/list.json
+- https://api.apis.guru/v2/providers.json
